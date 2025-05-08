@@ -1,0 +1,92 @@
+# 🧩 SoftSell - Marketing Website
+
+A modern, responsive, single-page marketing website built for a fictional software license resale startup called **SoftSell**. This project was created as part of a web development internship assignment with Credex.
+
+---
+
+## 🚀 Features Implemented
+
+### ✅ Hero Section
+- Headline and subheading introducing SoftSell
+- Call-to-action button with smooth scroll to contact form
+
+### ✅ How It Works
+- Illustrated 3-step process:
+  - Upload License
+  - Get Valuation
+  - Get Paid
+
+### ✅ Why Choose Us
+- 3 key selling points with icons:
+  - Fast Process
+  - Secure & Trusted
+  - Excellent Support
+
+### ✅ Customer Testimonials
+- Two professionally styled dummy reviews to boost trust
+
+### ✅ Contact / Lead Form
+- Fields:
+  - Name
+  - Email
+  - Company
+  - License Type (dropdown)
+  - Message
+- Includes frontend validation
+- Smooth and responsive design
+
+---
+
+## 🌙 Bonus Features
+
+- 🎥 **Framer Motion Animations** on sections and buttons
+- 🌗 **Dark / Light Mode Toggle**
+- 🤖 **Mock AI Chat Assistant** (`ChatWidget.jsx`) for basic interaction
+- 🌐 SEO-friendly structure with clean headings and metadata
+- ⚡ Smooth scroll behavior from CTA to contact form
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework**: React.js with Vite
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **Deployment Ready**: Easily host on Vercel, Netlify, or GitHub Pages
+
+---
+
+## 📁 Folder Structure
+
+SoftSell-Marketing-Site/
+├── public/
+│ └── assets/ # Icons and logo
+├── src/
+│ ├── App.jsx # Main layout
+│ ├── App.css # Component styles
+│ ├── index.css # Global styles and dark mode
+│ ├── main.jsx # Entry point
+│ |
+│ ├── ThemeToggle.jsx
+│ └── ChatWidget.jsx
+├── index.html
+├── package.json
+├── tailwind.config.js
+├── vite.config.js
+└── README.md
+
+---
+
+## 🧪 How to Run Locally
+
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/your-username/softsell-marketing-site.git
+   cd softsell-marketing-site
+
+
+Install Dependencies
+npm install
+
+Start Development Server
+npm run dev

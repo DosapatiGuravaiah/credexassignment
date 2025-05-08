@@ -1,0 +1,177 @@
+/* Global Styles */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f9fafb;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+input, textarea, select, button {
+  outline: none;
+  transition: all 0.3s ease-in-out;
+}
+
+input:focus, textarea:focus, select:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.3);
+}
+
+button {
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(135deg, #3b82f6, #60a5fa);
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+/* How It Works Section */
+.how-it-works .step {
+  background-color: white;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.how-it-works .step:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Why Choose Us Section */
+.why-choose-us .feature {
+  background-color: white;
+  border-radius: 15px;
+  padding: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 250px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.why-choose-us .feature:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Testimonials Section */
+.testimonial {
+  background-color: white;
+  border-radius: 15px;
+  padding: 30px;
+  width: 350px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 0 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.testimonial:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Contact Form */
+.contact-form form {
+  background-color: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form .input {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 1px solid #d1d5db;
+  background-color: #f9fafb;
+}
+
+.contact-form .input:focus {
+  background-color: white;
+  border-color: #3b82f6;
+}
+
+.contact-form .btn {
+  background-color: #3b82f6;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.contact-form .btn:hover {
+  background-color: #2563eb;
+  transform: scale(1.05);
+}
+
+.contact-form .btn:focus {
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3);
+}
+
+/* Dark Mode Styles */
+.dark .hero {
+  background: linear-gradient(135deg, #1e3a8a, #1e40af);
+}
+
+.dark .how-it-works .step {
+  background-color: #1e293b;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.dark .why-choose-us .feature {
+  background-color: #1e293b;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.dark .testimonial {
+  background-color: #1e293b;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.dark .contact-form form {
+  background-color: #1e293b;
+}
+
+.dark .contact-form .input {
+  background-color: #2d3748;
+  color: white;
+}
+
+.dark .contact-form .btn {
+  background-color: #2563eb;
+  color: white;
+}
+
+.dark .contact-form .btn:hover {
+  background-color: #3b82f6;
+}
+
+/* Chat Widget */
+.chat-widget {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #3b82f6;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.chat-widget:hover {
+  background-color: #2563eb;
+  transform: scale(1.1);
+}
+
+.chat-widget:focus {
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.3);
+}
